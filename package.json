@@ -1,6 +1,15 @@
 {
 	"name": "flowbite-svelte-starter",
 	"version": "0.1.0",
+	"description": "Flowbite-Svelte starter kit",
+	"author": {
+		"name": "Shinichi Okada",
+		"email": "connect@codewithshin.com",
+		"url": "https://blog.codewithshin.com"
+	},
+	"bugs": "https://github.com/shinokada/flowbite-svelte-starter/issues",
+	"homepage": "https://github.com/shinokada/flowbite-svelte-starter",
+	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -37,5 +46,16 @@
 		"tslib": "^2.3.1",
 		"typescript": "~4.6.2"
 	},
-	"type": "module"
+	"type": "module",
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"flowbite",
+		"flowbite-svelte",
+		"tailwindcss"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shinokada/flowbite-svelte-starter.git"
+	}
 }
