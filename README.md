@@ -2,6 +2,7 @@
 
 ## Feature
 
+- Svelte
 - SvelteKit
 - Tailwind CSS
 - Flowbite
