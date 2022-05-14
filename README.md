@@ -19,6 +19,6 @@
 ```sh
 git clone git@github.com:shinokada/flowbite-svelte-starter.git my-demo
 cd my-demo
-pnpm i
-pnpm run dev
+pnpm i // or npm i
+pnpm run dev // or npm run dev
 ```
