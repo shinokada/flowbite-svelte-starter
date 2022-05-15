@@ -142,6 +142,6 @@
 		<SidebarItem links={sidebarItem} />
 	</Nav>
 </Side>
-<main class="container mx-auto py-32 px-8 lg:pl-80 dark:text-white ">
+<main class="container mx-auto py-32 px-8 lg:pl-56 pr-8 dark:text-white ">
 	<slot />
 </main>
