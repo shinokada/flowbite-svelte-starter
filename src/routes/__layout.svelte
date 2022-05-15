@@ -62,14 +62,14 @@
 			href: '/',
 			icon: ChartPieSolid,
 			iconSize: 16,
-			iconClass: 'text-red-500'
+			iconClass: 'text-red-500 mr-2'
 		},
 		{
 			id: uid++,
 			name: 'Subdir 1',
 			icon: ShoppingBagSolid,
 			iconSize: 16,
-			iconClass: 'text-blue-500',
+			iconClass: 'text-blue-500 mr-2',
 			children: [
 				{
 					id: uid++,
@@ -93,7 +93,7 @@
 			name: 'Subdir 2',
 			icon: KeySolid,
 			iconSize: 16,
-			iconClass: 'text-green-500',
+			iconClass: 'text-green-500 mr-2',
 			children: [
 				{
 					id: uid++,
@@ -117,7 +117,7 @@
 			name: 'About',
 			icon: TableSolid,
 			iconSize: 16,
-			iconClass: 'text-purple-500',
+			iconClass: 'text-purple-500 mr-2',
 			href: '/about'
 		}
 	];
