@@ -22,6 +22,8 @@
 	let hamburgerClass =
 		'hover:text-gray-500 cursor-pointer mr-4 border-none focus:outline-none pt-2 lg:hidden';
 
+	let topDiv = 'w-full md:block md:w-auto absolute top-16 md:top-1 px-8';
+
 	let topMenuDiv = 'container flex flex-wrap justify-end mx-auto pt-0 md:pt-2';
 
 	let topul =
@@ -62,14 +64,14 @@
 			href: '/',
 			icon: ChartPieSolid,
 			iconSize: 16,
-			iconClass: 'text-red-500 mr-2'
+			iconClass: 'text-red-500 mr-2 dark:text-blue-500'
 		},
 		{
 			id: uid++,
 			name: 'Subdir 1',
 			icon: ShoppingBagSolid,
 			iconSize: 16,
-			iconClass: 'text-blue-500 mr-2',
+			iconClass: 'text-blue-500 mr-2 dark:text-yellow-300',
 			children: [
 				{
 					id: uid++,
@@ -130,6 +132,7 @@
 	{siteClass}
 	{headerClass}
 	{hamburgerClass}
+	{topDiv}
 	{topMenuDiv}
 	{topul}
 	{childLi}
