@@ -151,4 +151,9 @@
 
 <svelte:head>
 	<title>Flowbite-Svelte-Starter</title>
+	<meta
+		name="description"
+		content="Flowbite-Svelte-Starter is a quick way to start Svelte and Flowbite/Tailwind CSS. It comes with SvelteKit, Tailwind CSS, Flowbite,
+		Flowbite-Svelte, ESlint, Typescript, Playwright, Prettier, Svelte-heros (Heroicons), Dark mode activated."
+	/>
 </svelte:head>
