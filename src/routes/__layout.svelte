@@ -148,3 +148,7 @@
 <main class="container mx-auto py-32 px-8 lg:pl-56 pr-8 dark:text-white ">
 	<slot />
 </main>
+
+<svelte:head>
+	<title>Flowbite-Svelte-Starter</title>
+</svelte:head>
