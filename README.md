@@ -17,8 +17,17 @@
 ## Installation
 
 ```sh
-git clone git@github.com:shinokada/flowbite-svelte-starter.git my-demo
+npx degit shinokada/flowbite-svelte-starter my-demo
 cd my-demo
 pnpm i // or npm i
 pnpm run dev // or npm run dev
 ```
+
+## Svelte-Sidebar-Example
+
+If you want to see [a svelte-sidebar demo](https://flowbite-svelte-starter.vercel.app/):
+
+```sh
+git checkout svelte-sidebar-example
+```
+
