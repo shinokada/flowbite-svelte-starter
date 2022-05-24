@@ -16,6 +16,8 @@
 
 ## Installation
 
+
+
 ```sh
 npx degit shinokada/flowbite-svelte-starter my-demo
 cd my-demo
