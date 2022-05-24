@@ -1,5 +1,7 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
+
+const dev = "production" === "development";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,7 +14,17 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			pages: "docs",
+			assets: "docs"
+		}),
+		
+		paths: {
+			// change below to your repo name
+			base: dev ? "" : "/flowbite-svelte-starter"
+		},
+	
+		target: "#svelte"
 	}
 };
 
