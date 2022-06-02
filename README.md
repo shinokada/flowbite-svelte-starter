@@ -25,7 +25,9 @@ pnpm i // or npm i
 pnpm run dev // or npm run dev
 ```
 
-## Svelte-Sidebar-Example
+## Other examples/themes
+
+### Svelte-Sidebar-Example
 
 If you want to see [a svelte-sidebar demo](https://flowbite-svelte-starter.vercel.app/):
 
@@ -33,3 +35,20 @@ If you want to see [a svelte-sidebar demo](https://flowbite-svelte-starter.verce
 git checkout svelte-sidebar-example
 ```
 
+### Jaco example
+
+```sh
+git checkout jaco
+```
+
+### Jaco-github-pages
+
+```sh
+git checkout jaco-github-page
+```
+
+### Plain
+
+```sh
+git checkout plain
+```
