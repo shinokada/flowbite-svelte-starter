@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 	import { SidebarItem, DarkMode } from 'flowbite-svelte';
-	import { ChartPieSolid, ShoppingBagSolid, TableSolid, KeySolid } from 'svelte-heros';
+	import { ChartPie, ShoppingBag, Table, Key } from 'svelte-heros';
 
 	import { Side, Nav, Responsive } from 'svelte-sidebar-menu';
 
@@ -62,14 +62,14 @@
 			id: uid++,
 			name: 'Svelte-Sidebar',
 			href: '/',
-			icon: ChartPieSolid,
+			icon: ChartPie,
 			iconSize: 16,
 			iconClass: 'text-red-500 mr-2 dark:text-blue-500'
 		},
 		{
 			id: uid++,
 			name: 'Subdir 1',
-			icon: ShoppingBagSolid,
+			icon: ShoppingBag,
 			iconSize: 16,
 			iconClass: 'text-blue-500 mr-2 dark:text-yellow-300',
 			children: [
@@ -93,7 +93,7 @@
 		{
 			id: uid++,
 			name: 'Subdir 2',
-			icon: KeySolid,
+			icon: Key,
 			iconSize: 16,
 			iconClass: 'text-green-500 mr-2',
 			children: [
@@ -117,7 +117,7 @@
 		{
 			id: uid++,
 			name: 'About',
-			icon: TableSolid,
+			icon: Table,
 			iconSize: 16,
 			iconClass: 'text-purple-500 mr-2',
 			href: '/about'
