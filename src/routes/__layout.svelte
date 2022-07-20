@@ -1,7 +1,27 @@
 <script>
 	import '../app.css';
-	import { SidebarItem, DarkMode } from 'flowbite-svelte';
-	import { ChartPie, ShoppingBag, Table, Key } from 'svelte-heros';
+	import {
+		Sidebar,
+		SidebarWrapper,
+		SidebarGroup,
+		SidebarItem,
+		SidebarDropdownWrapper,
+		SidebarDropdownItem,
+		DarkMode
+	} from 'flowbite-svelte';
+
+	import {
+		ChartPie,
+		ViewGrid,
+		InboxIn,
+		User,
+		Login,
+		Cog,
+		ShoppingBag,
+		ShoppingCart,
+		Table,
+		Key
+	} from 'svelte-heros';
 
 	import { Side, Nav, Responsive } from 'svelte-sidebar-menu';
 
@@ -55,74 +75,6 @@
 		{ href: '/test2', name: 'Test 2' },
 		{ href: '/about', name: 'About' }
 	];
-
-	let uid = 1;
-	let sidebarItem = [
-		{
-			id: uid++,
-			name: 'Svelte-Sidebar',
-			href: '/',
-			icon: ChartPie,
-			iconSize: 16,
-			iconClass: 'text-red-500 mr-2 dark:text-blue-500'
-		},
-		{
-			id: uid++,
-			name: 'Subdir 1',
-			icon: ShoppingBag,
-			iconSize: 16,
-			iconClass: 'text-blue-500 mr-2 dark:text-yellow-300',
-			children: [
-				{
-					id: uid++,
-					name: 'Test 1-1',
-					href: '/test1/'
-				},
-				{
-					id: uid++,
-					name: 'Test 1-2',
-					href: '/test1/test-2'
-				},
-				{
-					id: uid++,
-					name: 'Test 1-3',
-					href: '/test1/test-3'
-				}
-			]
-		},
-		{
-			id: uid++,
-			name: 'Subdir 2',
-			icon: Key,
-			iconSize: 16,
-			iconClass: 'text-green-500 mr-2',
-			children: [
-				{
-					id: uid++,
-					name: 'Test 2-1',
-					href: '/test2/'
-				},
-				{
-					id: uid++,
-					name: 'Test 2-2',
-					href: '/test2/test-2'
-				},
-				{
-					id: uid++,
-					name: 'Test 2-3',
-					href: '/test2/test-3'
-				}
-			]
-		},
-		{
-			id: uid++,
-			name: 'About',
-			icon: Table,
-			iconSize: 16,
-			iconClass: 'text-purple-500 mr-2',
-			href: '/about'
-		}
-	];
 </script>
 
 <DarkMode {btnClass} />
@@ -142,10 +94,63 @@
 	topMenus={topMenuList}
 >
 	<Nav {navClass} {navDivClass}>
-		<SidebarItem links={sidebarItem} />
+		<Sidebar>
+			<SidebarWrapper>
+				<SidebarGroup>
+					<SidebarItem
+						label="Dashboard"
+						icon={{ name: ChartPie, class: 'text-red-500 mr-2 dark:text-blue-500' }}
+					/>
+					<SidebarDropdownWrapper
+						label="E-commerce"
+						icon={{ name: ShoppingCart, class: 'text-blue-500 mr-2 dark:text-pink-500' }}
+					>
+						<SidebarDropdownItem label="Products" />
+						<SidebarDropdownItem label="Billing" />
+						<SidebarDropdownItem label="Invoice" />
+					</SidebarDropdownWrapper>
+					<SidebarItem
+						label="Kanban"
+						{spanClass}
+						icon={{ name: ViewGrid, class: 'text-green-500 mr-2 dark:text-purple-500' }}
+					>
+						<svelte:fragment slot="subtext">
+							<span
+								class="inline-flex justify-center items-center px-2 ml-3 text-sm font-medium text-gray-800 bg-gray-200 rounded-full dark:bg-gray-700 dark:text-gray-300"
+								>Pro</span
+							>
+						</svelte:fragment>
+					</SidebarItem>
+					<SidebarItem
+						label="Inbox"
+						{spanClass}
+						icon={{ name: InboxIn, class: 'text-yellow-500 mr-2 dark:text-green-500' }}
+					>
+						<svelte:fragment slot="subtext">
+							<span
+								class="inline-flex justify-center items-center p-3 ml-3 w-3 h-3 text-sm font-medium text-blue-600 bg-blue-200 rounded-full dark:bg-blue-900 dark:text-blue-200"
+								>3</span
+							>
+						</svelte:fragment>
+					</SidebarItem>
+					<SidebarItem
+						label="Users"
+						icon={{ name: User, class: 'text-blue-500 mr-2 dark:text-pink-500' }}
+					/>
+					<SidebarItem
+						label="Sign In"
+						icon={{ name: Login, class: 'text-green-500 mr-2 dark:text-yellow-500' }}
+					/>
+					<SidebarItem
+						label="Sign Up"
+						icon={{ name: Cog, class: 'text-pink-500 mr-2 dark:text-blue-500' }}
+					/>
+				</SidebarGroup>
+			</SidebarWrapper>
+		</Sidebar>
 	</Nav>
 </Side>
-<main class="container mx-auto py-32 px-8 lg:pl-56 pr-8 dark:text-white ">
+<main class="container mx-auto py-32 px-8 lg:pl-80 pr-8 dark:text-white ">
 	<slot />
 </main>
 
