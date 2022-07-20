@@ -1,5 +1,5 @@
 <h1>Welcome to Flowbite-Svelte-Starter</h1>
-<h2>Theme: Jaco</h2>
+<h2>Theme: Jaco GitHub Page</h2>
 <p>
 	Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugiat quo odit fuga.
 	Exercitationem, iusto maxime! Ipsam alias voluptatum provident incidunt repudiandae eaque,
