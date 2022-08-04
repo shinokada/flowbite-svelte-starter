@@ -7,6 +7,7 @@
 - Tailwind CSS
 - Flowbite
 - Flowbite-Svelte
+- Flowbite-Svelte-Blocks
 - ESlint
 - Typescript
 - Playwright
@@ -15,8 +16,6 @@
 - Darkmode activated
 
 ## Installation
-
-
 
 ```sh
 npx degit shinokada/flowbite-svelte-starter my-demo
@@ -39,12 +38,6 @@ git checkout svelte-sidebar-example
 
 ```sh
 git checkout jaco
-```
-
-### Jaco-github-pages
-
-```sh
-git checkout jaco-github-page
 ```
 
 ### Plain
