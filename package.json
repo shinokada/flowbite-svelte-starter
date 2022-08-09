@@ -56,6 +56,10 @@
 		"flowbite-svelte",
 		"tailwindcss"
 	],
+	"engines": {
+		"npm": ">=7.0.0",
+		"node": ">=16.0.0"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/shinokada/flowbite-svelte-starter.git"
