@@ -28,6 +28,14 @@ pnpm i // or npm i
 pnpm run dev // or npm run dev
 ```
 
+Then update dependencies:
+
+```
+pnpm update
+// you may need to run this:
+pnpm i -D flowbite-svelte@latest
+```
+
 ## Other examples/themes
 
 ### Svelte-Sidebar-Example
