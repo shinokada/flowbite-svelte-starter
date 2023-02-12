@@ -52,9 +52,3 @@ git checkout svelte-sidebar-example
 ```sh
 git checkout jaco
 ```
-
-### Plain
-
-```sh
-git checkout plain
-```
