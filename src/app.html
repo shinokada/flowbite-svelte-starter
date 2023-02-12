@@ -2,12 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="description" content="Flowbite-Svelte-Starter Jaco Theme speeds up your web development with Flowbite Svelte. Darkmode, navbar, breadcrumb, and footer are installed."/>
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
-	<body class="bg-ricecake dark:bg-ebony">
-		<div>%sveltekit.body%</div>
+	<body data-sveltekit-preload-data="hover" class="bg-white dark:bg-gray-800">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
