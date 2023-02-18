@@ -39,22 +39,8 @@ pnpm i -D flowbite-svelte@latest
 
 ## Other examples/themes
 
-### Svelte-Sidebar-Example
-
-If you want to see [a svelte-sidebar demo](https://flowbite-svelte-starter.vercel.app/):
-
-```sh
-git checkout svelte-sidebar-example
-```
-
 ### Jaco example
 
 ```sh
 git checkout jaco
-```
-
-### Plain
-
-```sh
-git checkout plain
 ```
