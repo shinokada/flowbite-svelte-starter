@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/shinokada/flowbite-svelte-starter/compare/v0.1.2...v0.1.3) (2023-02-18)
+
+
+### Features
+
+* dependencies update ([7ab91d0](https://github.com/shinokada/flowbite-svelte-starter/commit/7ab91d067e3004258f3dac20ffd4d505be7147dd))
+* update all dependencies ([6c20ed5](https://github.com/shinokada/flowbite-svelte-starter/commit/6c20ed57b2c19189f3e41548726380d4ae9fa124))
+* update svelteki to 1.5.6 ([b47978d](https://github.com/shinokada/flowbite-svelte-starter/commit/b47978d20498d30f7952da0136a17ea00a1fa305))
+
+
+### Bug Fixes
+
+* add /build to gitignore ([a11b6aa](https://github.com/shinokada/flowbite-svelte-starter/commit/a11b6aa67fd37fcc9eac5450db8780da86fcac62))
+* add engines node 16.0.0 for vercel ([f113e5d](https://github.com/shinokada/flowbite-svelte-starter/commit/f113e5d93eb868021d8a3bb44ab6246d4023cceb))
+* dependencies updates ([c5ecd50](https://github.com/shinokada/flowbite-svelte-starter/commit/c5ecd50064ebdfd33b280091e50a99524b541bf0))
+* files update to sveltekit 1.5.6 ([05fc6f2](https://github.com/shinokada/flowbite-svelte-starter/commit/05fc6f2b2377139d61c40b20d32c17eb08e40ecf))
+* files update to sveltekit 1.5.6 ([83500e1](https://github.com/shinokada/flowbite-svelte-starter/commit/83500e1188623621712cf697229b2b4d85a0fd65))
+* remove /build from gitignore ([d49eb2f](https://github.com/shinokada/flowbite-svelte-starter/commit/d49eb2f0caaa632acae2c6cbb5ce6e1f9b497c20))
+
 ### [0.1.2](https://github.com/shinokada/flowbite-svelte-starter/compare/v0.1.1...v0.1.2) (2022-07-20)
 
 
