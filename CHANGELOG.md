@@ -6,7 +6,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## 0.1.0 (2022-05-12)
 
-
 ### Features
 
-* add svelte, sveltekit, tailwindcss, flowbite, flowbite-svelte, eslint, trypescript, playwright, prettier, svelte-heros, darkmode activated ([d754ef2](https://github.com/shinokada/flowbite-svelte-starter/commit/d754ef2c5151af366fe0a8530e6f9509daf79962))
+- add svelte, sveltekit, tailwindcss, flowbite, flowbite-svelte, eslint, trypescript, playwright, prettier, svelte-heros, darkmode activated ([d754ef2](https://github.com/shinokada/flowbite-svelte-starter/commit/d754ef2c5151af366fe0a8530e6f9509daf79962))

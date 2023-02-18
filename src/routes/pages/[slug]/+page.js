@@ -4,7 +4,7 @@ export async function load({ params }) {
   const content = post.default;
 
   return {
-    content,
+    content
     // title,
     // dir
   };

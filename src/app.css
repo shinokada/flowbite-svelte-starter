@@ -4,16 +4,16 @@
 @tailwind utilities;
 
 @layer base {
-	h1 {
-		@apply text-3xl w-full dark:text-white py-4;
-	}
-	h2 {
-		@apply text-2xl w-full dark:text-white py-3;
-	}
-	h3 {
-		@apply text-xl w-full dark:text-white py-2;
-	}
-	p {
-		@apply text-lg w-full text-gray-900 dark:text-white py-1;
-	}
+  h1 {
+    @apply text-3xl w-full dark:text-white py-4;
+  }
+  h2 {
+    @apply text-2xl w-full dark:text-white py-3;
+  }
+  h3 {
+    @apply text-xl w-full dark:text-white py-2;
+  }
+  p {
+    @apply text-lg w-full text-gray-900 dark:text-white py-1;
+  }
 }
