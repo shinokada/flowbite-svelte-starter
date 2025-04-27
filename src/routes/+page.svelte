@@ -1,4 +1,11 @@
-<h1 class="text-3xl dark:text-white">Welcome to SvelteKit</h1>
-<p class="dark:text-white">
-	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<script>
+  import { Alert } from 'flowbite-svelte';
+</script>
+
+<div class="relative mx-auto mt-8 h-full max-w-7xl overflow-y-auto px-8 pb-20">
+	<h1 class="my-8 flex justify-center">Flowbite Svelte Starter</h1>
+  <Alert>
+    <span class="font-medium">Alert example</span>
+    Change a few things up and try submitting again.
+  </Alert>
+</div>

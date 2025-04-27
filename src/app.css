@@ -1,4 +1,87 @@
-/* Write your global styles here, in PostCSS syntax */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source "../node_modules/flowbite-svelte/dist";
+@source "../node_modules/flowbite-svelte-icons/dist";
+
+@theme {
+	--z-index-100: 100;
+
+	--color-primary-50: #fdf4ff;
+	--color-primary-100: #fae8ff;
+	--color-primary-200: #f5d0fe;
+	--color-primary-300: #f0abfc;
+	--color-primary-400: #e879f9;
+	--color-primary-500: #d946ef;
+	--color-primary-600: #c026d3;
+	--color-primary-700: #a21caf;
+	--color-primary-800: #86198f;
+	--color-primary-900: #701a75;
+  
+}
+
+@layer base {
+	html {
+		-webkit-text-size-adjust: 100%;
+		font-family:
+			Inter,
+			ui-sans-serif,
+			system-ui,
+			-apple-system,
+			Segoe UI,
+			Roboto,
+			Helvetica Neue,
+			Arial,
+			Noto Sans,
+			sans-serif,
+			Apple Color Emoji,
+			Segoe UI Emoji,
+			Segoe UI Symbol,
+			Noto Color Emoji;
+		line-height: 1.5;
+		-moz-tab-size: 4;
+		tab-size: 4;
+	}
+
+	h1,
+	h2,
+	h3,
+	p,
+	ul,
+	li,
+	table {
+		@apply tracking-wide dark:text-white;
+	}
+
+	h1 {
+		@apply text-primary-800 dark:text-primary-400 my-8 text-3xl;
+	}
+
+	h2 {
+		@apply my-6 text-2xl;
+	}
+
+	h3 {
+		@apply my-5 text-xl;
+	}
+
+	p {
+		@apply my-3 text-lg;
+	}
+
+	code {
+		@apply text-primary-700 dark:text-primary-400;
+	}
+
+	#mainContent > pre {
+		@apply mx-auto my-4 w-full overflow-auto rounded-xl border border-gray-200 bg-gray-50 bg-gradient-to-r p-2 text-sm text-gray-600 sm:p-6 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-400;
+	}
+}
+
+@layer components {
+	/* overwrite runeswebkit.css using !important */
+	.dark_bg_theme {
+		@apply dark:bg-stone-900;
+	}
+}
