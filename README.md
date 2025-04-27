@@ -1,24 +1,10 @@
-# Runes Webkit Starter
-
-A collection of reusable Svelte components for building user interfaces for Svelte Runes web applications.
-
-- CodeWrapper
-- Footer
-- helpers
-- HighlightCompo
-- HomeCards
-- IconPage
-- SupportBanner
-- TechInfo
-
-
-## Requirements
-
-- Svelte 5 (Runes)
-- SvelteKit
+# Flowbite Svelte Starter
 
 ## Installation
 
 ```sh
-pnpm i -D runes-webkit svelte-rune-highlight highlight.js
+git clone git@github.com:shinokada/flowbite-svelte-starter.git
+cd flowbite-svelte-starter
+pnpm i
+pnpm dev
 ```
